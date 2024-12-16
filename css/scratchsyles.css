@@ -1,0 +1,49 @@
+body {
+    font-family: serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdeea;
+    color: #333;
+}
+header {
+    background-color: #ef93a2;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+}
+.skills-section {
+    margin-bottom: 2em;
+}
+.skills-section h2 {
+    border-bottom: 2px solid #e83b6c;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    list-style: none;
+    padding: 0;
+}
+.skills-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #e83b6c
+    ;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
